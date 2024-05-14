@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="masalacha .css">
+</head>
+
+<body>
+    <a href="2.html" target="_blank"> <i class="fa-solid fa-house-chimney"></i>  </a>
+      
+    <ul>
+        <li>
+            <h3><a href="#"> Masala Chai</a></h3>
+            <div class="chai">
+                <div id="chai"> <img
+                        src="data:image/jpeg;base64,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"
+                        alt="Masala Chai Cup">
+        </li>
+    </ul>
+    </div>
+    <div>
+        <ol type="circle">
+            <h2 class="a">Ingredients:</h2>
+            <li>1 cup water</li>
+            <li>1 cup milk (whole milk for traditional chai, or your choice of milk)</li>
+            <li> 2-3 teaspoons black tea leaves (or 2 tea bags)</li>
+            <li> 2-3 green cardamom pods, lightly crushed</li>
+            <li> 1 cinnamon </li>
+            <li> 2-3 cloves</li>
+            <li> 1 small piece of fresh ginger, sliced or grated</li>
+            <li> 2-3 black peppercorns</li>
+            <li>Sugar or sweetener of your choice, to taste</p>
+            </li>
+        </ol>
+        <ol type="circle">
+            <h2 class="a">Recipe:</h2>
+            <li> 1 cup water</li>
+            <li> 1 cup milk (whole milk for traditional chai, or your choice of milk)</li>
+            <li> 2-3 teaspoons black tea leaves (or 2 tea bags)</li>
+            <li> 2-3 green cardamom pods, lightly crushed</li>
+            <li> 1 cinnamon stick</li>
+            <li> 2-3 cloves</li>
+            <li> 1 small piece of fresh ginger, sliced or grated</li>
+            <li> 2-3 black peppercorns</li>
+            <li> Sugar or sweetener of your choice, to taste</li>
+        </ol>
+        <ul>
+            <li>
+    </div>
+</body>
+</html>
