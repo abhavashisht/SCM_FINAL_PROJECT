@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="6.css">
+</head>
+
+<body>
+    <section class="scene">
+        <div class="sun"></div>
+        <h3> Our Mission</h3>
+        <p>Recipe Sharing Plateform</p>
+        <h3>Team Members-</h3>
+        <div id="a" class="card">
+            <img src="singh.jpg" alt="man">
+            <div class="desc">
+                <h3>Aadi Bhandari(T.C)</h3>
+                <p>Fronth-end Developer</p>
+            </div>
+        </div>
+        
+        <div id="b" class="card">
+
+
+            <img src="WhatsApp Image 2023-12-05 at 20.06.04_138e2001.jpg"
+                alt="women">
+            <div class="desc">
+                <h3>Aanchal Jha</h3>
+                <p>Web Developer</p>
+            </div>
+        </div>
+        <div id="c" class="card">
+            <img src="WhatsApp Image 2023-12-03 at 18.21.03_7be81200.jpg" alt="women">
+            <div class="desc">
+                <h3>Aarnav Kaushal</h3>
+                <p>Software Developer</p>
+            </div>
+        </div>
+<div>
+<div> 
+    <h3>Our Aim</h3>
+<p>Our mission is to inspire and connect individuals through the joy of cooking, fostering a global community that celebrates diverse culinary traditions. We empower users to share, discover, and create delightful recipes, promoting a shared passion for good food, creativity in the kitchen, and cultural exchange.</p>
+
+
+</div>
+       <div></div> <h3> Our Story</h3>
+        <p>
+            
+            Recipe Sharing Platform began in 2023 with a simple dream—to create a space where food enthusiasts could connect through the joy of sharing recipes. Fueled by a passion for diverse cuisines and a commitment to building a welcoming community, our platform quickly evolved. From the collaborative efforts of our team to the valuable feedback of our users, Recipe Sharing Platform has grown into a hub where culinary creativity knows no bounds. Today, we celebrate our shared love for food and look forward to the delicious chapters yet to be written in our culinary story.
+            
+            </p></div></div>
+    </section>
+    <script>
+        const sun = document.querrySelector('.sun');
+        const body = document.querrySelector('body');
+        sun.onclick = function () {
+            body.classList.toggle('dark')
+        }
+
+
+
+
+    </Script>
+
+</body>
