@@ -6,7 +6,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Add a New Recipe</h1>
+        <h1>Add a New Recipe</h1> <h2> Add your favourite Recipe </h2>
         <form action="submit_recipe.php" method="POST">
             <label for="recipeName">Recipe Name:</label>
             <input type="text" id="recipeName" placeholder="enter recipe Name" name="recipeName" required><br><br>
